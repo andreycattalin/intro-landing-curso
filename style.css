@@ -1,6 +1,7 @@
 body {
     background-image: url("/images/rectangle.png");
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .box {
@@ -59,4 +60,15 @@ body {
 
 .box a:hover {
     background-color: rgb(31, 123, 102);
+}
+
+.triangle {
+    background-color: blueviolet;
+    width: 150%;
+    height: 852px;
+    transform: rotate(153deg);
+    position: absolute;
+    top: -535px;
+    left: -349px;
+    z-index: -9;
 }
