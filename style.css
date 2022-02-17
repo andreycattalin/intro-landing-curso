@@ -1,7 +1,19 @@
 body {
+    /* background-image: url("/images/rectangle.png"); */
+    /* background-repeat: no-repeat; */
+    background-color: rgb(113, 167, 167);
+    overflow: hidden;
+}
+
+.back {
     background-image: url("/images/rectangle.png");
     background-repeat: no-repeat;
-    overflow: hidden;
+    width: 1024px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 25px 50px;
+    border-radius: 18px;
+    margin-top: 100px;
 }
 
 .box {
@@ -14,7 +26,7 @@ body {
     background-color: aquamarine;
     margin-top: 100px;
     margin-right: auto;
-    margin-bottom: 0px;
+    margin-bottom: 100px;
     margin-left: auto;
     border-radius: 6px;
     box-shadow: 0px 7px 20px 0px #a5afc25e;
